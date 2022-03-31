@@ -181,7 +181,7 @@ hr {
 #times {
     background-image: url(../images/dublin-city.webp);
     background-repeat: no-repeat;
-    background-size: center;
+    background-size: cover;
     background-position: center;
     width: 100%;
     overflow: hidden;
@@ -265,6 +265,12 @@ footer {
     }
     hr {
         display: none;
+    }
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
     }
 }
 /* For medium screen sizes from 950px wide and down */
